@@ -1,4 +1,4 @@
-# DNSIFY - Simplify your dns config
+# dnsify - Simplify your dns config
 
 - Plain text format for version control and automated goodness
 - Protect the innocent from syntax errors

@@ -1,10 +1,10 @@
 {
   "name": "dnsify",
   "version": "0.1.0",
-  "description": "",
+  "description": "- Plain text format for version control and automated goodness - Protect the innocent from syntax errors - Reduce the repetition (looking at you zonefiles, OMG) - Prefer readability over opaque terseness (tinydns, I <3 you, but why you make me RTFM every time?)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/happy-path.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,21 @@
     "commonmark": "^0.22.1",
     "request": "^2.67.0",
     "tape": "^4.2.2"
-  }
+  },
+  "bin": {
+    "dnsify": "dnsify.js"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableflip/dnsify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tableflip/dnsify/issues"
+  },
+  "homepage": "https://github.com/tableflip/dnsify#readme"
 }
