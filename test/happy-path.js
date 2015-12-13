@@ -5,8 +5,10 @@ test('find a table', function (t) {
   var parser = require('../lib/markdown-dnsify.js')
   fs.readFile(__dirname + '/../examples/dry-style.dns.md', 'utf8', function (err, data) {
     parser(data, function (err, zones) {
+      var zone = zones[0]
       t.error(err)
-      t.equals(zones[0].origin, 'tableflip.io', 'Find origins')
+      t.equals(zone.origin, 'tableflip.io', 'Find origins')
+      t.equals(zone.records.length, 9, 'Expands records')
       t.end()
     })
   })
