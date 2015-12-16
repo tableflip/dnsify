@@ -8,7 +8,7 @@ test('find a table', function (t) {
       var zone = zones[0]
       t.error(err)
       t.equals(zone.origin, 'tableflip.io', 'Find origins')
-      t.equals(zone.records.length, 9, 'Expands records')
+      t.equals(zone.records.length, 10, 'Expands records')
       t.end()
     })
   })
