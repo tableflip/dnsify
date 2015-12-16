@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "DNS config in markdown",
   "keywords":[
-    "readable"
+    "readable",
     "markdown",
     "dns"
   ],
