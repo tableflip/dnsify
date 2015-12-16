@@ -5,13 +5,25 @@
 - Reduce the repetition (looking at you zonefiles, OMG)
 - Prefer readability over opaque terseness (tinydns, I <3 you, but why you make me RTFM every time?)
 
-## Features (once implemented)
+```markdown
+## Origin: tableflip.io
+
+name       | type | data
+-----------|------|---------------
+@ www blog | A    | 178.62.82.182
+@          | MX   | mx-{1,3}.rightbox.com:10
+```
+
+## Features
 
 - Markdown table to "Abstract Zone File" object
 - Merge multiple tables into one zone object
-- Understand space, comma, tab separated lists
 - Understand globs `{1,2}.foo.com` **=>** `1.foo.com 2.foo.com`
-- Output a legal zonefile
+- Output a zonefile or JSON
+
+## Next up
+- Sanity check your dns config
+- Ensure output zonefile is valid
 - Upload to your DNS provider
 
 ## Usage
@@ -79,4 +91,3 @@ type | data
 -----|------
 MX   | mx-{1,2,3}.rightbox.com:10
 TXT  | `v=spf1 include:_spf.google.com include:_spf.freeagent.com ~all`
-

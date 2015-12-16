@@ -1,7 +1,12 @@
 {
   "name": "dnsify",
   "version": "0.1.0",
-  "description": "- Plain text format for version control and automated goodness - Protect the innocent from syntax errors - Reduce the repetition (looking at you zonefiles, OMG) - Prefer readability over opaque terseness (tinydns, I <3 you, but why you make me RTFM every time?)",
+  "description": "DNS config in markdown",
+  "keywords":[
+    "readable"
+    "markdown",
+    "dns"
+  ],
   "bin": {
     "dnsify": "bin/dnsify.js"
   },
