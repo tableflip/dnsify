@@ -2,19 +2,19 @@
   "name": "dnsify",
   "version": "0.1.0",
   "description": "- Plain text format for version control and automated goodness - Protect the innocent from syntax errors - Reduce the repetition (looking at you zonefiles, OMG) - Prefer readability over opaque terseness (tinydns, I <3 you, but why you make me RTFM every time?)",
-  "main": "index.js",
+  "bin": {
+    "dnsify": "bin/dnsify.js"
+  },
   "scripts": {
     "test": "node test/happy-path.js"
   },
-  "author": "",
+  "author": "olizilla",
   "license": "ISC",
   "dependencies": {
-    "commonmark": "^0.22.1",
+    "dashdash": "^1.10.1",
+    "handlebars": "^4.0.5",
     "request": "^2.67.0",
     "tape": "^4.2.2"
-  },
-  "bin": {
-    "dnsify": "dnsify.js"
   },
   "directories": {
     "example": "examples",
