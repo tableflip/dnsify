@@ -11,9 +11,3 @@ type | data
 -----|------
 MX   | mx-{1,2}.rightbox.com:10 mx-3.rightbox.com:20
 TXT  | `v=spf1 include:_spf.google.com include:_spf.freeagent.com ~all`
-
-
-
-mx-1.rightbox.com:10
-mx-2.rightbox.com:10 
-mx-3.rightbox.com:20
