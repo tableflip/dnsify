@@ -9,7 +9,6 @@ www       | A    | @
 blog      | A    | @
 hook      | A    | @
 next      | A    | @
-blog.next | A    | @
 old       | A    | 212.110.189.58
 @         | MX   | mx-1.rightbox.com:10
 @         | MX   | mx-2.rightbox.com:10

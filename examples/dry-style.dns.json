@@ -1,0 +1,57 @@
+[
+  {
+    "origin": "tableflip.io",
+    "records": [
+      {
+        "data": "178.62.82.182",
+        "type": "A",
+        "name": "@"
+      },
+      {
+        "data": "178.62.82.182",
+        "type": "A",
+        "name": "www"
+      },
+      {
+        "data": "178.62.82.182",
+        "type": "A",
+        "name": "blog"
+      },
+      {
+        "data": "178.62.82.182",
+        "type": "A",
+        "name": "hook"
+      },
+      {
+        "data": "178.62.82.182",
+        "type": "A",
+        "name": "next"
+      },
+      {
+        "data": "212.110.189.58",
+        "type": "A",
+        "name": "old"
+      },
+      {
+        "type": "MX",
+        "data": "mx-1.rightbox.com:10",
+        "name": "@"
+      },
+      {
+        "type": "MX",
+        "data": "mx-2.rightbox.com:10",
+        "name": "@"
+      },
+      {
+        "type": "MX",
+        "data": "mx-3.rightbox.com:20",
+        "name": "@"
+      },
+      {
+        "type": "TXT",
+        "data": "v=spf1 include:_spf.google.com include:_spf.freeagent.com ~all",
+        "name": "@"
+      }
+    ]
+  }
+]
