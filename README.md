@@ -1,10 +1,8 @@
 # dnsify - Simplify your dns config
 
-- Plain text format for version control and automated goodness
-- Protect the innocent from syntax errors
-- Reduce the repetition (looking at you zonefiles, OMG)
-- Prefer readability over opaque terseness (tinydns, I <3 you, but why you make me RTFM every time?)
+A human friendly format for **defining** and **documenting** and your DNS config and a tool for **verifying** and **applying** it to your friendly dns service provider.
 
+e.g **tableflip.io.dns.md**
 ```markdown
 ## Origin: tableflip.io
 
@@ -14,17 +12,17 @@ name       | type | data
 @          | MX   | mx-{1,3}.rightbox.com:10
 ```
 
-## Features
+## Why
 
-- Markdown table to "Abstract Zone File" object
+- Documentation _is_ the config.
+- Reduce the repetition (looking at you zonefiles, OMG)
+- Prefer readability over opaque terseness (`tinydns`, I <3 you, but why you make me RTFM every time?)
+
+## What
+- Convert a Markdown table to an "Abstract Zone File" object
 - Merge multiple tables into one zone object
-- Understand globs `{1,2}.foo.com` **=>** `1.foo.com 2.foo.com`
+- Understand shell style brace expansions `{1,2}.foo.com` **=>** `1.foo.com 2.foo.com`
 - Output a zonefile or JSON
-
-## Next up
-- Sanity check your dns config
-- Ensure output zonefile is valid
-- Upload to your DNS provider
 
 ## Usage
 
