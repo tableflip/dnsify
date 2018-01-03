@@ -18,18 +18,22 @@
   "dependencies": {
     "brace-expansion": "^1.1.2",
     "dashdash": "^1.10.1",
+    "dns-zonefile": "^0.2.2",
     "extend": "^3.0.0",
     "flatmap": "0.0.3",
-    "handlebars": "^4.0.5",
     "json-stable-stringify": "^1.0.0",
+    "marked-ast": "^0.3.0",
     "request": "^2.67.0",
-    "tape": "^4.2.2"
+    "underscore.string": "^3.3.4",
+    "yargs": "^10.0.3"
   },
   "directories": {
     "example": "examples",
     "test": "test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tableflip/dnsify.git"
