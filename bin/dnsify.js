@@ -17,10 +17,7 @@ var s = fs.readFile(file, 'utf8', function (err, md) {
   parser(md, function (err, zones) {
     if (err) exitOnError(err)
     if (argv.json) return console.log(JSON.stringify(zones, null, 2))
-    zonefile(zones, function (err, data) {
-      if (err) exitOnError(err)
-      console.log(data)
-    })
+    console.log(zonefile(zones))
   })
 })
 
